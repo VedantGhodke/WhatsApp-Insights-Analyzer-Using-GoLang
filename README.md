@@ -4,14 +4,14 @@
 ## Usage
 ```bash
    # you can clone the repository and make the binary yourself
-   λ git clone git@github.com:umayr/insights
+   λ git clone git@github.com:VEDANTGHODKE/WhatsApp-Insights-Analyzer-Using-GoLang
    λ cd insights
    λ make
    λ ./bin/insights ./path/to/chat/file.txt
    # for different timezones you can use -timezone flag
-   λ insights -pretty -timezone=Asia/Dubai ./path/to/chat/file.txt
+   λ insights -pretty -timezone=Asia/Kolkata ./path/to/chat/file.txt
 ```
-Or you can just download prebuilt binaries from here: [Link](https://github.com/umayr/insights/releases/latest)
+Or you can just download prebuilt binaries from here: [Link](https://github.com/VEDANTGHODKE/WhatsApp-Insights-Analyzer-Using-GoLang/releases/latest)
  
 ## Metrics
 
@@ -43,14 +43,14 @@ Or you can just download prebuilt binaries from here: [Link](https://github.com/
 - Least Active Count
 - Emoji Used
 
-## Graph
+## Graphs
 
 It also comes with a server that would represent the data extracted from the chat in graphical format it would require `-server` argument during execution, it would look like this:
 
 ![](Example.png)
 
-## Contribution
+## Implementations
 
-This is a very crude implementation that I cooked up within a day so there are tons of improvements that could be done, please feel free to send a PR or raise an issue if you find anything. 
+This is a very crude implementation that I coded within a single day, hence there are lots of potential improvements that could be done. In any case, please feel free to send a PR or raise an issue if you find anything interesting.
 
 
