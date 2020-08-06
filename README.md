@@ -1,5 +1,6 @@
-# Insights
-> Generates insights for a whatsapp chat.
+# WhatsApp Insights Analyzer Using GoLang
+
+This code generates brief insights for a WhatsApp chat of a given user.
  
 ## Usage
 ```bash
